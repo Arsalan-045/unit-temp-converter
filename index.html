@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter </title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="converter">
+
+        <!-- For Unit Converter -->
+        <div class="div1">
+           <!-- heading as unit converter -->
+           <h2 id="heading">Unit Converter</h2>
+
+           <!-- For input and output fields -->
+           <div id="container">
+              <!-- For input -->
+              <div class="input-div">
+                <label for="">Feet</label><br>
+                <input type="Number" value="1" id="feet" class="inpt">
+              </div>
+
+              <!-- equals to -->
+              <div class="input-div">
+                <h1 class="equals">=</h1>
+              </div>
+
+              <!-- For Output -->
+              <div class="input-div">
+                <label>Inches</label><br>
+                <input type="Number" value="12" id="inch" class="inpt">
+              </div>
+
+           </div>
+
+        </div>
+
+         <!-- For Temperature Converter -->
+         <div class="div2">
+            <!-- heading as unit converter -->
+            <h2 id="heading">Temperature Converter</h2>
+ 
+            <!-- For input and output fields -->
+            <div id="container2">
+               <!-- For input -->
+               <div class="input-div">
+                 <label for="">Celcius</label><br>
+                 <input type="Number" value="0" id="cel" class="inpt">
+               </div>
+ 
+               <!-- equals to -->
+               <div class="input-div">
+                 <h1 class="equals">=</h1>
+               </div>
+ 
+               <!-- For Output -->
+               <div class="input-div">
+                 <label>Farenhite</label><br>
+                 <input type="Number" value="32" id="far" class="inpt">
+               </div>
+ 
+            </div>
+ 
+         </div>
+ 
+
+
+    </div>
+   
+    <script src="./converter.js"></script>
+    <script src="./tempconv.js"></script>
+</body>
+</html>

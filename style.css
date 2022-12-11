@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.coverter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+h2#heading{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#container{
+    margin: 15px auto 0px auto;
+    width: 50vw;
+    text-align: center;
+    background-color: lightseagreen;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input-div{
+    display: inline-block;
+}
+.inpt{
+    padding: 5px 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+}
+label{
+    font-size: 20px;
+}
+
+/* styling for temperature */
+
+#container2{
+    margin: 15px auto 0px auto;
+    width: 50vw;
+    text-align: center;
+    background-color: rgb(148, 44, 174);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+/* Mobile Responsive */
+@media only screen and (max-width: 480px)
+{
+    .inpt{
+        padding: 3px 8px;
+        margin: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        width: 120px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .equals{
+        padding:25px;
+    }
+}
